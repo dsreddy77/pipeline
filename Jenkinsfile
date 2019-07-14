@@ -11,7 +11,7 @@ Pipeline
 				{
 				steps
 					{
-						echo "Second step"input"
+						echo "Second step input"
 					}
 				}
 			stage(’Three’)
