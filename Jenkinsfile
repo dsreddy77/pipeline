@@ -18,14 +18,14 @@ Pipeline
 			{
 				parallel
 				{
-					stage(‘Unit Test’)
+					stage("Unit Test")
 						{
 						steps
 							{
 							echo “Running the unit test”
 							}
 						}
-					stage(‘Integration Test’)
+					stage("Integration Test")
 						{
 							agent
 							{
@@ -37,7 +37,7 @@ Pipeline
 							}
 							steps
 								{
-								echo ‘Running the Integration test’
+								echo "Running the Integration test"
 								}
 						}			
 
